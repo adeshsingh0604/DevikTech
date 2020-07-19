@@ -36,7 +36,7 @@
 
 .applybutton{
     font-size: large;
-      padding: 8px 18px;
+      padding: 1%;
       transition-duration: 0.3s;
       cursor: pointer;
       background-color: rgba(255, 255, 255, 0); 
@@ -45,8 +45,6 @@
       border-radius: 10px;
       font-family: 'Nunito', sans-serif;
       cursor: pointer;
-      margin-top: 5px;
-      margin-right: 10px;
   
 }
   
@@ -59,7 +57,7 @@
 
 .founderbutton{
     font-size: large;
-      padding: 8px 18px;
+      padding: 1%;
       transition-duration: 0.3s;
       cursor: pointer;
       background-color: rgba(255, 255, 255, 0); 
@@ -68,8 +66,6 @@
       border-radius: 10px;
       font-family: 'Nunito', sans-serif;
       cursor: pointer;
-      margin-top: 5px;
-      margin-right: 10px;
   
 }
   
@@ -133,7 +129,7 @@
     /* border-radius: 30px; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 70vh;
     background-color: rgba(100, 148, 237, 0.233);
     /* background-image: url("../src/images/aboutfounder.png"); */
@@ -157,27 +153,23 @@
 
 
 .aboutusfounderpara{
-    width: 40%;
     /* border: 2px solid crimson; */
-    justify-content: center;
-    /* height: 50%; */
-    /* background-color: rgba(0, 89, 255, 0.788); */
-    /* opacity: 0.8; */
-    padding: 2%;
+    padding: 1%;
+    
 }
-
 
 .aboutfounderheading a{
     color: navy;
     text-decoration: none;
 }
 
-.founderpara{
-    text-align: left;
-    /* margin-top: 5%; */
+.founderpara p{
     /* border: 2px solid chartreuse; */
-    /* color: white; */
+    text-align: center;
 }
+
+
+
 
 .card1 {
     /* background: rgba(104, 172, 235, 0.473); */
@@ -287,6 +279,8 @@
     .ah2{
         /* border: 2px solid blue; */
         margin: auto;
+        text-align: center;
+        padding: 1%;
     }
 
     .aboutdescription{
